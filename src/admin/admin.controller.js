@@ -8,10 +8,11 @@ const POST = (req, res) => {
     if (!(admin == manager.admin && password == manager.password)) {
       throw new Error(`invalid admin or admin password`);
     }
+    console.log(sign({admin:admin}, SECRET_KEY));
     res.json({
       status: 200,
       message: "you are logged in ",
-      token: sign(admin, SECRET_KEY),
+      token: sign({admin:admin}, SECRET_KEY),
     });
   } catch (error) {
     res.json({

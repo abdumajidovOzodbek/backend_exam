@@ -1,0 +1,23 @@
+/login:
+  post:
+    tags:
+     - login
+    requestBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Login'
+      required: true
+    responses:
+      '200':
+        description: login successful
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginResponse'
+      '400':
+        description: error
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ErrorResponse'

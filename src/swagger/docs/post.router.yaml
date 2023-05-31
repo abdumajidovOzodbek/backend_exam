@@ -1,0 +1,25 @@
+/post:
+  post:
+    tags:
+     - posts
+    requestBody:
+      content:
+        multipart/form-data:
+          schema:
+            $ref: '#/components/schemas/Post'
+      required: true
+    responses:
+      '201':
+        description: posted
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostResponse'
+      '400':
+        description: error
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ErrorResponse'
+
+  
