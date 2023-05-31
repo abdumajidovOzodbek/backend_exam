@@ -5,7 +5,9 @@ const CHECKTOKEN = (req, res, next) => {
   try {
     const { token } = req.headers;
     const { verify } = jwt;
-    const admin = verify(token, SECRET_KEY);
+    
+    const {admin} = verify(token, SECRET_KEY);
+    console.log(admin);
     if (!(admin == manager.admin)) {
       throw new Error(`admin must be single`);
     }

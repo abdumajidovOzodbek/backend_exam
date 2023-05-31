@@ -21,3 +21,54 @@
           application/json:
             schema:
               $ref: '#/components/schemas/ErrorResponse'
+
+/verificate/{id}/{status}:
+  get:
+    description: id and status must be specified
+    tags:
+      - verification
+    parameters:
+      - in: path
+        name: id 
+        required: true
+      - in: path
+        name: status
+        required: true
+    responses:
+      '200':
+        description: announcement declared
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostResponse'
+      '400':
+        description: error
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ErrorResponse'
+    security:
+        - Bearer:
+            type: oauth2
+/verificate:
+  get:
+    tags:
+      - verification
+    responses:
+      '200':
+        description: announcement declared
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/verifiResponse'
+      '400':
+        description: error
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ErrorResponse'
+    security:
+        - Bearer:
+            type: oauth2
+    
+

@@ -20,9 +20,9 @@ export const PostSchema = Joi.object({
     title:Joi.string().min(10).max(40).required(),
     tel_number:Joi.string().pattern(/^998([378]{2}|(9[013-57-9]))\d{7}$/).required(),
     date:Joi.date().format("DD/MM/YYYY").required(),
-    time: Joi.string().regex(/^([0-9]{2})\:([0-9]{2})$/),
+    time: Joi.string().regex(/^([0-9]{2})\:([0-9]{2})$/).required(),
     profession:Joi.string().min(8).max(30).required(),
-    link:Joi.string().uri(),
+    link:Joi.string().uri().required(),
     online:Joi.boolean().required(),
     image: Joi.string().pattern(new RegExp('((jpe?g|png|gif|bmp))$')).required()
 });

@@ -10,12 +10,20 @@ const swaggerDoc = swaggerJSDoc({
     servers: [
       {
         url: `http://localhost:${PORT}`,
-        title:'app js'
       },
     ],
     info:{
-        title:'app js',
-        description:'app .....'
+        title:'PRESSA ',
+        description:'clone app swagger documentation'
+    },
+    components:{
+        securitySchemes:{
+            Bearer: {
+                type: 'apiKey',
+                name:'token',
+                in: 'header'
+            }
+        }
     }
   },
   apis:[

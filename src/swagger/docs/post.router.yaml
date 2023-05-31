@@ -1,7 +1,7 @@
-/post:
+/upload:
   post:
     tags:
-     - posts
+     - uploads
     requestBody:
       content:
         multipart/form-data:
@@ -22,4 +22,56 @@
             schema:
               $ref: '#/components/schemas/ErrorResponse'
 
-  
+/:
+  get:
+    tags:
+      - home
+    responses:
+      '200':
+        description: announcement declared
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/homeResponse'
+      '400':
+        description: error
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ErrorResponse'
+    parameters:
+      - in: query
+        name: fullname
+        
+      - in: query
+        name: date
+        
+      - in: query
+        name: prof
+        
+      - in: query
+        name: online
+/single/{id}:
+  get:
+    description: id must be specified
+    tags:
+      - single_page
+    parameters:
+      - in: path
+        name: id 
+        required: true
+    responses:
+      '200':
+        description: 
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Post'
+      '400':
+        description: error
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ErrorResponse'
+        
+      

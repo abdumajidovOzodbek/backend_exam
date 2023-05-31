@@ -40,6 +40,35 @@ components:
                 type: string
               time:
                 type: string
+    homeResponse:
+      type: array
+      items:
+        type: object
+        properties:
+          post_id:
+            type: integer
+          first_name:
+            type: string
+          link:
+            type: string
+          online:
+            type: string
+          profession:
+            type: string
+          last_name:
+            type: string
+          title:
+            type: string
+          description:
+            type: string
+          image:
+            type: string
+          tel_number:
+            type: string
+          date:
+            type: string
+          time:
+            type: string          
     ErrorResponse:
       type: object
       properties:
