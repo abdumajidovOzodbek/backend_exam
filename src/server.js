@@ -12,9 +12,8 @@ app.use(route);
 app.use(express.static(resolve('uploads')))
 app.use(express.static(resolve('avatar')))
 app.use((err, req, res, next) => {
-  if(err){
-    res.clearCookie("token").redirect('/login')
-  }
+ res.status(400).json({status:400,message: err.message})
+ console.log(err);
 });
 
 app.listen(PORT, console.log(`server running on port ${PORT}`));

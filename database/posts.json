@@ -1,87 +1,44 @@
 [
     {
-        "contentId": 1,
-        "title": "uy",
-        "status":"public",
-        "coment": "men uydaman",
-        "image": "image-1684474335822-550471550cristianorinaldo.webp",
-        "time": "2023-05-19T05:32:15.844Z"
+        "post_id": 1,
+        "status": "public",
+        "subcategory_id": "1",
+        "first_name": "ozodbek",
+        "link": "https://www.figma.com/file/QweZgTOQh5XtMfCYLMfjfJ/Pressa-(Copy)?type=design&node-id=0-1&t=EcLaI1D8T111mGpj-0",
+        "profession": "futbol",
+        "last_name": "abdumajidov",
+        "title": "hello",
+        "description": "zodjzijznebdxhzrx h4 zh4rc4",
+        "image": "image-1685519217059-43239294630soccer-ronaldo-1-76fd-mediumSquareAt3X.jpg",
+        "tel_number": "+998946506408",
+        "time": "14:00"
     },
     {
-        "contentId": 2,
-        "title": "futbol",
-        "status":"public",
-        "coment": "futbol mazzade",
-        "image": "image-1684474368068-95415541530soccer-ronaldo-1-76fd-mediumSquareAt3X.jpg",
-        "time": "2023-05-19T05:32:48.081Z"
+        "post_id": 2,
+        "status": "public",
+        "subcategory_id": "1",
+        "first_name": "ozodbek",
+        "link": "https://www.figma.com/file/QweZgTOQh5XtMfCYLMfjfJ/Pressa-(Copy)?type=design&node-id=0-1&t=EcLaI1D8T111mGpj-0",
+        "profession": "futbolgaem",
+        "last_name": "abdumajidov",
+        "title": "hello tashkent",
+        "description": "zodjzijznebdxhzrx h4 zh4rc4",
+        "image": "image-1685520202487-88903493930soccer-ronaldo-1-76fd-mediumSquareAt3X.jpg",
+        "tel_number": "998946506408",
+        "time": "14:00"
     },
     {
-        "contentId": 3,
-        "status":"public",
-        "title": "izdiddd",
-        "image": "image-1684475747249-72760782332158059_5669112056530954_397939076239406324_n.jpg",
-        "time": "2023-05-19T05:55:47.268Z"
-    },
-    {
-        "contentId": 4,
-        "title": "djhhdh",
-        "status":"public",
-        "image": "image-1684475786075-441925311339159998_534582585456597_4822536690820037195_n.jpg",
-        "time": "2023-05-19T05:56:26.086Z"
-    },
-    {
-        "contentId": 5,
-        "title": "xejjxexex",
-        "status":"public",
-        "image": "image-1684475836006-325198196339159998_534582585456597_4822536690820037195_n.jpg",
-        "time": "2023-05-19T05:57:16.018Z"
-    },
-    {
-        "contentId": 6,
-        "title": "xexe",
-        "status":"public",
-        "coment": "xexxe",
-        "image": "image-1684475866480-867015600Screenshot 2023-01-31 010010.png",
-        "time": "2023-05-19T05:57:46.484Z"
-    },
-    {
-        "contentId": 7,
-        "title": "dqwd",
-        "status":"public",
-        "coment": "2swqd",
-        "image": "image-1684475892955-76096489logo.png",
-        "time": "2023-05-19T05:58:12.958Z"
-    },
-    {
-        "contentId": 8,
-        "title": "selsmel",
-        "coment": "seses",
-        "status":"public",
-        "image": "image-1684476033527-519921219274264936_1076168479616277_7573539807538875210_n.webp",
-        "time": "2023-05-19T06:00:33.553Z"
-    },
-    {
-        "contentId": 9,
-        "title": "sese",
-        "coment": "sees",
-        "status":"public",
-        "image": "image-1684476090697-871491109photo_2023-04-21_01-58-33.jpg",
-        "time": "2023-05-19T06:01:30.718Z"
-    },
-    {
-        "contentId": 10,
-        "title": "esmeks",
-        "status":"public",
-        "coment": "sesese",
-        "image": "image-1684476156083-548026662logo.png",
-        "time": "2023-05-19T06:02:36.087Z"
-    },
-    {
-        "contentId": 11,
-        "title": "icednqwedc",
-        "coment": "cqwd",
-        "status":"public",
-        "image": "image-1684480233923-355719504339159998_534582585456597_4822536690820037195_n.jpg",
-        "time": "2023-05-19T07:10:33.930Z"
+        "post_id": 3,
+        "status": "public",
+        "subcategory_id": "1",
+        "first_name": "ozodbek",
+        "link": "https://www.figma.com/file/QweZgTOQh5XtMfCYLMfjfJ/Pressa-(Copy)?type=design&node-id=0-1&t=EcLaI1D8T111mGpj-0",
+        "profession": "futbolgaem",
+        "last_name": "abdumajidov",
+        "title": "hello tashkent",
+        "description": "zodjzijznebdxhzrx h4 zh4rc4",
+        "image": "image-1685520203920-6535469930soccer-ronaldo-1-76fd-mediumSquareAt3X.jpg",
+        "tel_number": "998946506408",
+        "time": "14:00"
     }
 ]

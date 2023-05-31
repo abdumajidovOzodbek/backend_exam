@@ -1,0 +1,17 @@
+[
+    {
+        "subcategory_id":1,
+        "category_id":1,
+        "subcategory_name":"Java Developer"
+    },
+    {
+        "subcategory_id":2,
+        "category_id":1,
+        "subcategory_name":"Javascript Developer"
+    },
+    {
+        "subcategory_id":3,
+        "category_id":2,
+        "subcategory_name":"Javascript Menejment"
+    }
+]

@@ -8,9 +8,11 @@ const POST = (req, res) => {
     if (!(admin == manager.admin && password == manager.password)) {
       throw new Error(`invalid admin or admin password`);
     }
-    return res
-      .cookie("token", sign({ admin, password }, SECRET_KEY))
-      .redirect("/myblog");
+    res.json({
+      status: 200,
+      message: "you are logged in ",
+      token: sign(admin, SECRET_KEY),
+    });
   } catch (error) {
     res.json({
       status: 404,
@@ -18,4 +20,4 @@ const POST = (req, res) => {
     });
   }
 };
-export { POST};
+export { POST };
